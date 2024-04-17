@@ -1,0 +1,161 @@
+
+body {
+    background-color: hsl(235, 18%, 26%);
+    font-family: "Roboto", sans-serif;
+    color: hsl(234, 29%, 20%);
+    font-weight: 400;
+
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translate(-50%, -50%); /* Firefox */
+    -ms-transform: translate(-50%, -50%);  /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Safari and Chrome*/
+    -o-transform: translate(-50%, -50%); /* Opera */
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    width: 740px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+h2 {
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+h2, ul li {
+    font-weight: 500;
+}
+
+h1, #email-label, #incorrect-email {
+    font-weight: 900;
+}
+
+#email-label, #incorrect-email {
+    font-size: 11px;
+    margin-top: 0px;
+}
+
+#email-input, button {
+    line-height: 30px;
+    border-radius: 7px;
+}
+#email-input, button, label {
+    font-family: "Roboto", sans-serif;
+}
+
+#email-input {
+    padding: 6px 140px 6px 15px;
+    border: 1px solid hsl(231, 7%, 60%);
+    margin-top: 5px;
+}
+
+button {
+    text-align: center;
+    padding: 6px 60.8px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    border: none;
+    background-color: hsl(234, 29%, 20%);
+    margin-top: 18px;
+}
+
+.form {
+    max-width: 350px;
+    padding: 55px 0 0 0;
+    margin-left: 20px;
+
+}
+
+img {
+    width: 330px;
+    padding: 15px 0;
+}
+
+
+ul li {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+li {
+    background-image: url("images/icon-list.svg");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    list-style-type: none;
+    padding-left: 35px;
+}
+
+ul {
+    margin-left: -40px;
+}
+
+button:active {
+    background-color: hsl(4, 100%, 67%);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:hsl(4, 100%, 67%)
+}
+
+.subscribed {
+    background-color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    max-width: 300px;
+    height: 300px;
+    padding: 30px 50px 40px 50px;
+}
+
+.container, .subscribed {
+    border-radius: 25px;
+}
+
+#dismiss-btn {
+    width: 100%;
+}
+
+
+#check-img {
+    width: 50px;
+
+}
+
+#thank-you {
+    margin-top: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+#bold {
+    font-weight: 800;
+}
+
+.email-label-div {
+    display: flex;
+    margin-bottom: -10px;
+}
+
+#incorrect-email {
+    margin-left: 140px;
+    color:hsl(4, 100%, 67%);
+    margin-bottom: -10px;
+}

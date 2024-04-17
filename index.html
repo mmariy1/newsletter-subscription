@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="container" id="container">
+            <div class="form">
+                <h1>Stay Updated!</h1>
+                <h2>Join 60,000+ product managers receiving monthly updates on:</h2>
+                <ul id="list">
+                    <li>Product discovery and building what matters</li>
+                    <li>Measuring to ensure updates are a success</li>
+                    <li>And much more!</li>
+                </ul>
+                <div class="form-email">
+                    <div class="email-label-div">
+                        <p id="email-label">Email Address</p>
+                        <p id="incorrect-email"></p>
+                    </div>
+                    <input type="email" label="email" placeholder="email@company.com" id="email-input" required><br>
+                    <button class="subscribe-btn" id="subscribe-btn">Subscribe to monthly newsletter</button>
+                </div>
+            </div>
+            <div class="image">
+                <image src="images\illustration-sign-up-desktop.svg">
+            </div>
+        </div>
+        <div class="subscribed" id="subscribed">
+            <img src="images\icon-list.svg" id="check-img">
+            <h1 id="thank-you">Thanks for subscribing!</h1>
+            <h2 id="email-confirm"></h2>
+            <button id="dismiss-btn">Dismiss message</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
